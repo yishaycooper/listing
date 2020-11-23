@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do</title>
+    <script src="https://kit.fontawesome.com/6efc1c5bf8.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <h1>My task board</h1>
+    <form>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-6 notebook">
+                    <div class="form-group">
+                        <label for="to-do" class="bg-primary text-white">ToDo</label>
+                        <input type="text" id="to-do" class="form-control" required="true">
+                    </div>
+                <div class="form-row justify-content-between">
+                    <div class="form-group form-inline">
+                        <label for="date" class="bg-primary text-white">Date</label>
+                        <input type="date" id="date" class="form-control" required="true">
+                    </div>
+
+                    <div class="form-group form-inline">
+                        <label for="time" class="bg-primary text-white">Time</label>
+                        <input type="time" id="time" class="form-control">
+                    </div>
+                </div>
+                   
+                    
+                    <input type="submit" value=" Add  " class="btn btn-primary mt-4" onclick="recieveInput();"> 
+                    <button class="btn btn-primary mt-4" onclick="clearFields();"><span class="glyphicon glyphicon-remove"></span> Crear</button>     
+                </div>
+                <!-- d-inline-flex p-2    d-flex-->
+            </div>
+            <div class="d-inline-flex p-2 flex-wrap" id="contain">
+        
+            </div>
+        </div>  
+    </form> 
+    <script src="script.js"></script>
+</body>
+</html></html>
+
+

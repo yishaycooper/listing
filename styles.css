@@ -1,0 +1,75 @@
+
+body{
+	background-image: url('tile.jpg');
+}
+
+.notebook{
+	background: url('formbg.jpg');
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-weight: bolder;
+	margin-left: 18%;
+	margin-top: 1%;
+	background-color: lightseagreen;
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+label{
+	padding: 8px;
+}
+
+
+.fas{
+	color: red;
+	font-size: 20px;
+	float: right;
+}
+
+.inflated{
+	width: 185px;
+	height: 253px;
+	background:url('notebg.png') no-repeat;
+	position: relative;
+	transition: all 3s;
+}
+
+.todo-div{
+	width: 195px;
+	height: 155px;
+	overflow-y: scroll;
+}
+
+i{
+	visibility: hidden;
+}
+
+.inflated:hover i{
+	visibility: visible;
+}
+
+.font{
+	font-size: 11px;
+}
+
+/* implemented in javascript 
+.fade-in{
+	animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+} */
+
+
+
+
+
